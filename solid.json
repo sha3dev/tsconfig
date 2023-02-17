@@ -1,8 +1,19 @@
 {
-  "extends": "base",
+  "extends": "./base",
   "compilerOptions": {
     "experimentalDecorators": true,
     "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "jsxImportSource": "solid-js",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "types": ["solid-start/env"],
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
   }
 }
