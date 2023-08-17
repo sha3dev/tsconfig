@@ -6,6 +6,7 @@
     "target": "ES2022",
     "lib": ["ES2022", "DOM"],
     "module": "ES2022",
+    "allowSyntheticDefaultImports": true,
     "composite": false,
     "declaration": true,
     "declarationMap": true,
@@ -19,6 +20,7 @@
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "experimentalDecorators": true,
-    "strict": true
+    "strict": true,
+    "paths": { "@/*": ["./src/*"] }
   }
 }

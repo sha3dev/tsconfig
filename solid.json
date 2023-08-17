@@ -1,19 +1,15 @@
 {
   "extends": "./base",
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "strict": true,
-    "types": ["solid-start/env"],
-    "baseUrl": "./",
-    "paths": {
-      "~/*": ["./src/*"]
-    }
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client"],
+    "noEmit": true,
+    "isolatedModules": true
   }
 }
